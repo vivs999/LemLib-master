@@ -1,0 +1,127 @@
+{
+    "py/object": "pros.conductor.project.Project",
+    "py/state": {
+        "project_name": "LemLib",
+        "target": "v5",
+        "templates": {
+            "hardware": {
+                "location": "C:\\Users\\Liam Teale\\AppData\\Roaming\\PROS\\templates\\hardware@0.2.1",
+                "metadata": {
+                    "origin": "local"
+                },
+                "name": "hardware",
+                "py/object": "pros.conductor.templates.local_template.LocalTemplate",
+                "supported_kernels": "^4.1.1",
+                "system_files": [
+                    "include\\hardware\\Encoder\\V5RotationSensor.hpp",
+                    "include\\hardware\\Encoder\\Encoder.hpp",
+                    "include\\hardware\\Motor\\MotorGroup.hpp",
+                    "include\\hardware\\Imu\\Imu.hpp",
+                    "include\\hardware\\Motor\\Motor.hpp",
+                    "firmware\\hardware.a",
+                    "include\\hardware\\Imu\\V5InertialSensor.hpp",
+                    "include\\hardware\\Encoder\\ADIEncoder.hpp"
+                ],
+                "target": "v5",
+                "user_files": [],
+                "version": "0.2.1"
+            },
+            "kernel": {
+                "location": "C:\\Users\\Liam Teale\\AppData\\Roaming\\PROS\\templates\\kernel@4.1.1",
+                "metadata": {
+                    "cold_addr": "58720256",
+                    "cold_output": "bin/cold.package.bin",
+                    "hot_addr": "125829120",
+                    "hot_output": "bin/hot.package.bin",
+                    "origin": "pros-mainline",
+                    "output": "bin/monolith.bin"
+                },
+                "name": "kernel",
+                "py/object": "pros.conductor.templates.local_template.LocalTemplate",
+                "supported_kernels": null,
+                "system_files": [
+                    "include/pros/gps.hpp",
+                    "include/pros/motors.h",
+                    "include/pros/error.h",
+                    "include/pros/imu.hpp",
+                    "include/pros/serial.h",
+                    "include/pros/rtos.h",
+                    "include/pros/optical.hpp",
+                    "firmware/libc.a",
+                    "include/pros/distance.hpp",
+                    "include/pros/rotation.h",
+                    "common.mk",
+                    "include/pros/motors.hpp",
+                    "firmware/v5.ld",
+                    "include/pros/gps.h",
+                    "include/pros/link.hpp",
+                    "include/pros/colors.h",
+                    "include/pros/imu.h",
+                    "include/pros/adi.hpp",
+                    "include/pros/ext_adi.h",
+                    "include/pros/misc.hpp",
+                    "include/pros/link.h",
+                    "include/pros/device.h",
+                    "include/pros/misc.h",
+                    "firmware/v5-common.ld",
+                    "include/pros/adi.h",
+                    "include/pros/abstract_motor.hpp",
+                    "include/api.h",
+                    "firmware/v5-hot.ld",
+                    "firmware/libm.a",
+                    "include/pros/device.hpp",
+                    "include/pros/apix.h",
+                    "include/pros/llemu.h",
+                    "include/pros/vision.hpp",
+                    "include/pros/serial.hpp",
+                    "include/pros/llemu.hpp",
+                    "include/pros/colors.hpp",
+                    "include/pros/rotation.hpp",
+                    "include/pros/distance.h",
+                    "include/pros/rtos.hpp",
+                    "include/pros/vision.h",
+                    "include/pros/screen.h",
+                    "include/pros/optical.h",
+                    "firmware/libpros.a",
+                    "include/pros/motor_group.hpp",
+                    "include/pros/screen.hpp"
+                ],
+                "target": "v5",
+                "user_files": [
+                    "src/main.cpp",
+                    "src/main.c",
+                    "Makefile",
+                    "src/main.cc",
+                    "include/main.h",
+                    ".gitignore",
+                    "include/main.hh",
+                    "include/main.hpp"
+                ],
+                "version": "4.1.1"
+            },
+            "units": {
+                "location": "C:\\Users\\Liam Teale\\AppData\\Roaming\\PROS\\templates\\units@0.3.2",
+                "metadata": {
+                    "origin": "local"
+                },
+                "name": "units",
+                "py/object": "pros.conductor.templates.local_template.LocalTemplate",
+                "supported_kernels": "^4.1.1",
+                "system_files": [
+                    "include\\units\\Vector3D.hpp",
+                    "firmware\\units.a",
+                    "include\\units\\Pose.hpp",
+                    "include\\units\\Temperature.hpp",
+                    "include\\units\\Vector2D.hpp",
+                    "include\\units\\Angle.hpp",
+                    "include\\units\\units.hpp"
+                ],
+                "target": "v5",
+                "user_files": [],
+                "version": "0.3.2"
+            }
+        },
+        "upload_options": {},
+        "use_early_access": false
+    }
+}
